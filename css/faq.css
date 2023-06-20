@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-wraper {
+  width: 100vw;
+  }
+
+/* Typograpy */
+.wrapper {
+  font-family: "Roboto", sans-serif;
+  max-width: 50%;
+  margin: auto;
+}
+
+.wrapper > h1 {
+  margin: 1.5rem 0;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  color: #554e4e;
+}
+
+.cross {
+  background-color: #ffff;
+  color: rgba(136, 185, 79, 0.8);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 800;
+  width: 100%;
+  padding: 2rem 1.5rem;
+  border: none;
+  transition: .3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ .cross i {
+color: rgb(250, 176, 69);
+font-size: 1.4rem;
+
+ }
+
+ .active, .cross:hover {
+    background-color:  rgba(136, 185, 79, 0.5);
+    color: #ffff;
+ }
+
+.answer {
+    padding: 0 2rem 2.5rem 2rem;
+    overflow: hidden;
+    background-color:  rgba(136, 185, 79, 0.1);
+    display: none;
+}
+
+ .answer p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: .85rem;
+    line-height: 1.4;
+    margin-bottom: 1.2rem;
+ }
+
+ .faq {
+    border: 1px solid rgba(136, 185, 79, 0.2);
+    margin: .75rem 0;
+ }
+
+ .faq.active {
+    border: none;
+ }
